@@ -1,0 +1,67 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Verdana;
+  background-image: url("img/car.jpg");
+}
+
+input,
+button {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid grey;
+  border-radius: 4px;
+}
+
+.button {
+  transition-duration: 0.4s;
+  background-color: rgb(23, 79, 124);
+  padding: 15px 32px;
+  display: inline-block;
+  cursor: pointer;
+  color: white;
+  font-size: 16px;
+}
+
+.button:hover {
+  background-color: #173979;
+  color: white;
+}
+
+.card {
+  width: 350px;
+  margin: 25px 25px;
+  padding: 25px 25px;
+  background-color: rgb(197, 197, 194);
+  border-radius: 4px;
+}
+
+label {
+  font-weight: 500;
+}
+
+.container {
+  display: inline-block;
+}
+
+.logo {
+  height: 100px;
+  text-align: center;
+}
+
+.error {
+  width: 100%;
+  margin-bottom: 10px;
+  font-size: 80%;
+  color: rgb(255, 0, 0);
+}
+.input-error {
+  border: 2px solid red;
+}
+
+.input-success {
+  border: 2px solid rgb(1, 175, 1);
+}
